@@ -1,0 +1,4 @@
+#Mon Oct 16 17:31:36 IST 2023
+base.0=D\:\\Unity Projets\\Shooting With Whatsapp\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.proshooter_vr.whatsappconnet"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-67
+19-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-79
+20-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-71
+21-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:22-68
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-80
+22-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-77
+23
+24    <uses-feature
+24-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-18:31
+25        android:name="android.hardware.vr.headtracking"
+25-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-56
+26        android:required="true"
+26-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-32
+27        android:version="1" />
+27-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-28
+28    <uses-feature
+28-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:35
+29        android:name="android.hardware.vulkan.version"
+29-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-55
+30        android:required="true" />
+30-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-32
+31    <uses-feature
+31-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
+32        android:name="android.hardware.microphone"
+32-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-51
+33        android:required="false" />
+33-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
+34    <uses-feature
+34-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
+35        android:name="android.hardware.touchscreen"
+35-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-52
+36        android:required="false" />
+36-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
+37    <uses-feature
+37-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:5-30:36
+38        android:name="android.hardware.touchscreen.multitouch"
+38-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:9-63
+39        android:required="false" />
+39-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-33
+40    <uses-feature
+40-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:5-33:36
+41        android:name="android.hardware.touchscreen.multitouch.distinct"
+41-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:9-72
+42        android:required="false" />
+42-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-33
+43
+44    <application
+44-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+45        android:allowBackup="false"
+45-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-36
+46        android:extractNativeLibs="true"
+46-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:9-41
+47        android:icon="@mipmap/app_icon"
+47-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+48        android:label="@string/app_name"
+48-->D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+49        android:networkSecurityConfig="@xml/network_sec_config" >
+49-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-64
+50        <meta-data
+50-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-43:37
+51            android:name="unityplayer.SkipPermissionsDialog"
+51-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-61
+52            android:value="false" />
+52-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-34
+53        <meta-data
+53-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-46:39
+54            android:name="com.samsung.android.vr.application.mode"
+54-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-67
+55            android:value="vr_only" />
+55-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-36
+56        <meta-data
+56-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:9-49:47
+57            android:name="com.oculus.supportedDevices"
+57-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-55
+58            android:value="quest2|questpro" />
+58-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-44
+59        <meta-data
+59-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:9-52:33
+60            android:name="unity.splash-mode"
+60-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-45
+61            android:value="0" />
+61-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-30
+62        <meta-data
+62-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:9-55:36
+63            android:name="unity.splash-enable"
+63-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-47
+64            android:value="True" />
+64-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-33
+65        <meta-data
+65-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:9-58:36
+66            android:name="unity.launch-fullscreen"
+66-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-51
+67            android:value="True" />
+67-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-33
+68        <meta-data
+68-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:9-61:37
+69            android:name="unity.allow-resizable-window"
+69-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:13-56
+70            android:value="False" />
+70-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:13-34
+71        <meta-data
+71-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:62:9-64:50
+72            android:name="notch.config"
+72-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:13-40
+73            android:value="portrait|landscape" />
+73-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-47
+74        <meta-data
+74-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:9-67:36
+75            android:name="unity.auto-report-fully-drawn"
+75-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:13-57
+76            android:value="true" />
+76-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-33
+77
+78        <activity
+78-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:9-91:20
+79            android:name="com.unity3d.player.UnityPlayerActivity"
+79-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:70:13-66
+80            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+80-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:71:13-122
+81            android:excludeFromRecents="true"
+81-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:72:13-46
+82            android:exported="true"
+82-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:73:13-36
+83            android:launchMode="singleTask"
+83-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:74:13-44
+84            android:resizeableActivity="false"
+84-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:75:13-47
+85            android:screenOrientation="landscape"
+85-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:76:13-50
+86            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+86-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:77:13-77
+87            <intent-filter>
+87-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:78:13-83:29
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:17-77
+88-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:79:27-74
+89                <category android:name="com.oculus.intent.category.VR" />
+89-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:17-74
+89-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:80:27-71
+90
+91                <action android:name="android.intent.action.MAIN" />
+91-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:17-69
+91-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:82:25-66
+92            </intent-filter>
+93
+94            <meta-data
+94-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:85:13-87:40
+95                android:name="com.oculus.vr.focusaware"
+95-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:86:17-56
+96                android:value="true" />
+96-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:87:17-37
+97            <meta-data
+97-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:88:13-90:40
+98                android:name="notch_support"
+98-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:89:17-45
+99                android:value="true" />
+99-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:90:17-37
+100        </activity>
+101
+102        <meta-data
+102-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:93:9-95:37
+103            android:name="com.unity.xr.oculus.LowOverheadMode"
+103-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:94:13-63
+104            android:value="false" />
+104-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:95:13-34
+105        <meta-data
+105-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:96:9-98:37
+106            android:name="com.unity.xr.oculus.LateLatching"
+106-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:97:13-60
+107            android:value="false" />
+107-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:98:13-34
+108        <meta-data
+108-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:99:9-101:37
+109            android:name="com.unity.xr.oculus.LateLatchingDebug"
+109-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:100:13-65
+110            android:value="false" />
+110-->[:unityLibrary] D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:101:13-34
+111    </application>
+112
+113</manifest>

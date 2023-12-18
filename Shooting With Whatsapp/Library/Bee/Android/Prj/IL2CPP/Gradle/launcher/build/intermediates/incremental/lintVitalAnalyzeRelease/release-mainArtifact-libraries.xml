@@ -1,0 +1,87 @@
+<libraries>
+  <library
+      name="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\classes.jar;D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\libs\unity-classes.jar;D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\libs\voicesdk_core.jar;D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\libs\voicesdk_platform_dictation.jar;D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\libs\voicesdk_platform_logger.jar;D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out\jars\libs\voicesdk_unity.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\.transforms\3bea0458bc80d578f77c87ec14d06a49\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_core.jar:unspecified@jar"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_core.jar"
+      resolved="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_core.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_dictation.jar:unspecified@jar"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_dictation.jar"
+      resolved="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_dictation.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_logger.jar:unspecified@jar"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_logger.jar"
+      resolved="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_platform_logger.jar:unspecified"/>
+  <library
+      name="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_unity.jar:unspecified@jar"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_unity.jar"
+      resolved="__local_aars__:D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\voicesdk_unity.jar:unspecified"/>
+  <library
+      name=":InteractionSdk:@aar"
+      jars="C:\Users\aniku\.gradle\caches\transforms-3\9ef40732204f4ea8c431ed18b2d90d14\transformed\InteractionSdk\jars\classes.jar"
+      resolved=":InteractionSdk:"
+      folder="C:\Users\aniku\.gradle\caches\transforms-3\9ef40732204f4ea8c431ed18b2d90d14\transformed\InteractionSdk"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":OVRPlugin:@aar"
+      jars="C:\Users\aniku\.gradle\caches\transforms-3\ccd87800830278354d700e17fedf2703\transformed\OVRPlugin\jars\classes.jar"
+      resolved=":OVRPlugin:"
+      folder="C:\Users\aniku\.gradle\caches\transforms-3\ccd87800830278354d700e17fedf2703\transformed\OVRPlugin"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":SDKTelemetry:@aar"
+      jars="C:\Users\aniku\.gradle\caches\transforms-3\cde6657896cdbdacf9f5f8e7430ef1b4\transformed\SDKTelemetry\jars\classes.jar"
+      resolved=":SDKTelemetry:"
+      folder="C:\Users\aniku\.gradle\caches\transforms-3\cde6657896cdbdacf9f5f8e7430ef1b4\transformed\SDKTelemetry"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+      jars="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\be377f265ba01d2ac6bf8bcd2a52bdd4\transformed\out\jars\classes.jar"
+      resolved="Gradle.unityLibrary:xrmanifest.androidlib:unspecified"
+      folder="D:\Unity Projets\Shooting With Whatsapp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\.transforms\be377f265ba01d2ac6bf8bcd2a52bdd4\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 6be84e4d7829855419c06b94e56bd135
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - whitebulletPrefab: {fileID: 4782889431795176411, guid: 321164e931f9a614d8c3f2f65aa51f31,
+      type: 3}
+  - redbulletPrefab: {fileID: 4782889431795176411, guid: f13eb3c8be070164a8bb61a7451a89ab,
+      type: 3}
+  - yellowbulletPrefab: {fileID: 4782889431795176411, guid: 79f67778319834745a5f91a2b8e6bc88,
+      type: 3}
+  - greenbulletPrefab: {fileID: 4782889431795176411, guid: c0b428397e949be47838106df645e5e4,
+      type: 3}
+  - orangebulletPrefab: {instanceID: 0}
+  - casingPrefab: {instanceID: 0}
+  - muzzleFlashPrefab: {instanceID: 0}
+  - gunAnimator: {instanceID: 0}
+  - barrelLocation: {instanceID: 0}
+  - casingExitLocation: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
